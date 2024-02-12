@@ -16,7 +16,7 @@ body {
 
 header {
   padding-top: 12px;
-  padding-bottom: 48px;
+  padding-bottom: 64px;
   background: #1f2937;
 }
 
@@ -44,4 +44,46 @@ header a:first-child {
 
 .hero-section {
   background: #1f2937;
+  padding-bottom: 48px;
+  color: white;
+}
+
+.hero-container {
+  display: flex;
+  gap: 64px;
+}
+
+.hero-desc {
+  align-self: center;
+}
+
+.hero-desc h1 {
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+.hero-desc p {
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.hero-desc button {
+  border: none;
+  padding: 12px 8px;
+  background-color: dodgerblue;
+  color: white;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hero-desc button:hover {
+  background-color: rgb(17, 115, 213);
+  color: rgb(210, 210, 210);
+}
+
+.hero-img img {
+  height: 300px;
+  border-radius: 8px;
 }
